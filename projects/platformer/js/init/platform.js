@@ -36,9 +36,30 @@
          */
         createPlatform(0, game.world.height - 32, 3, 2);    // DO NOT DELETE
 
-        // example:
-        createPlatform(400, 250);
-        createPlatform(170, 460, 0.5);
+        // example: /* first number distance left or right, second one is up or down, third size */
+       /*highest*/
+        createPlatform(700, 270, 0.5);
+      
+        /*bottom*/
+       createPlatform(150, 630, 0.7);
+       
+        /*second*/
+        createPlatform(410,570,0.5);
+       
+        /*third from bottom*/
+        createPlatform(650, 520, 0.7);
+       
+        /*fourth*/
+        createPlatform(700, 400 ,0.5);
+
+        /*fifth*/
+        createPlatform(420, 350, 0.6);
+
+        /*sixth*/
+        createPlatform(400, 200,0.5);
+
+        /*seventh*/
+        createPlatform(150, 150, 0.5);
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
